@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: rgb(220 220 220 / 0.3);
+}
+
+
+h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+p{
+}
+
+.products {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(211 211 211 / 0.11);
+    border: 1px solid rgb(128 128 128 / 0.32);
+    border-radius: 10px;
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+
+}
+
+.fridge{
+    display: flex;
+
+
+}
+.products img{
+    width: 50%;
+}
