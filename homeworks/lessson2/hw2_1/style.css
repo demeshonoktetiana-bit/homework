@@ -7,28 +7,28 @@ body {
 }
 
 h1 {
-    font-size: 12px;
+    font-size: 30px;
     text-align: center;
-    margin: 10px 0;
+    margin: 40px 0;
 }
 p  { align-items: center;
 }
 h6 {
-  padding : 5px
+  padding : 10px
 }
 .products {
-    width: 80px;
-    height: 100px;
+    width: 200px;
+    height: 250px;
     background-color: rgb(211 211 211 / 0.09);
     border: 1px solid rgb(128 128 128 / 0.32);
-    border-radius: 10px;
-    font-size: 6px;
+    border-radius: 20px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 6px;
-    margin: 6px;
+    margin: 10px;
 }
 .products img {
     width: 50%
