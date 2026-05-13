@@ -2,39 +2,34 @@ body{
     /*height: 100%;*/
     margin: 0;
     padding: 0;
-
 }
-
 .months{
-    height: 450px;
+    height: 600px;
     background-color: #4c6c4c;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     align-content: flex-start;
+    gap: 15px;
 
 }
 .item{
-    height: 150px;
+    height: 180px;
     width: 190px;
     background-color: #c6dcc3;
-    display: flex;
-    margin: 10px;
     border-radius: 5px;
-
-}
-.item p{
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    display:flex;
     flex-direction: column;
-  
+    margin-top: 15px;
+
 
 }
 .item h1{
     font-size: 15px;
+    margin-left: 5px;
 
+}
+.item p{
+    font-size: 12px;
+    margin: 8px;
 }
