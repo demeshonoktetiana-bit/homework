@@ -24,12 +24,16 @@ body{
 
 
 }
-.item h1{
-    font-size: 15px;
+.item h2{
+    font-size: 14px;
     margin-left: 5px;
 
 }
 .item p{
     font-size: 12px;
     margin: 8px;
+}
+
+.item:hover{
+    transform: scale(1.1);
 }
