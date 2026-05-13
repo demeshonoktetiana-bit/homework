@@ -1,0 +1,50 @@
+.wrapper{
+    height: 200px;
+    width: 200px;
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+
+}
+ .rubik-pixels-regular {
+     font-family: "Rubik Pixels", system-ui;
+     font-weight: 400;
+     font-style: normal;
+ }
+.rubik-pixels-regular {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sedgwick-ave-display-regular {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
