@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 50vh;
+}
+
+.section1{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section p {
+    width: 90%;
+}
+
+h2 {
+    font-weight: lighter;
+}
