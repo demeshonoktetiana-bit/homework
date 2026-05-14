@@ -1,0 +1,28 @@
+header{
+    height: 70vh;
+    background-color: #1572cc;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0;
+
+}
+section{
+    height: 80vh;
+    width: 65vh;
+    background-color: #0756ac;
+}
+footer{
+    height: 100vh;
+    background-color: #1572cc;
+}
+
+header, section, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
