@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+main{
+    display: flex;
+    height: 75vh;
+}
+nav{
+    height: 5vh;
+    background: #D9D9D9;
+}
+main section{
+    height: 100%;
+    width: 60vw;
+    background: #A4A4A4;
+}
+.aside-top{
+    height: 40vh;
+    width: 40vw;
+    background: #7F7A7A;
+}
+.aside-bottom{
+    height: 35vh;
+    width: 40vw;
+    background: #615050;
+}
+footer{
+    height: 20vh;
+    background: #D9D9D9;
+}
+.footer__section-top{
+    height: 9vh;
+    background: #D9D9D9;
+}
+.footer__section-bottom{
+    height: 11vh;
+    background: #AFA9A9;
+
+}
