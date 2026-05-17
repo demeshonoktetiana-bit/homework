@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .animation{
+            display: flex;
+            align-items: center;
+
+        }
+        .animation img{
+            width: 200px;
+
+        }
+        @keyframes heart {
+            from{
+                transform: scale(1.5);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+        @keyframes pulse {
+            from{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1,2);
+            }
+            to{
+                transform: scale(1);
+            }
+
+        }
+        .heart{
+            animation: heart 1s infinite ease-in;
+        }
+        .pulse{
+            animation: pulse 3s infinite;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="animation">
+    <img class="heart" src="img/heart.png" alt="heart">
+    <img class="pulse" src="img/pulse.png" alt="pulse">
+</div>
+
+</body>
+</html>
