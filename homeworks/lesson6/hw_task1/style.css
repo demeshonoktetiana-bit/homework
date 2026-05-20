@@ -1,0 +1,20 @@
+h3{
+    margin-left: 35px;
+    font-weight: lighter;
+}
+.block-one>ul>li:nth-child(even) {
+    color: pink;
+}
+.block-two>ul>li:nth-child(odd) {
+    font-size: 22px;
+}
+.block-three>ul>li:nth-child(2n+4)::after{
+    content: "!"
+}
+.block-four>ul>li:last-child{
+    color: purple;
+}
+.block-five>ul>li::first-letter{
+    font-size: 30px;
+    color: red;
+}

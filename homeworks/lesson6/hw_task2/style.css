@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: cadetblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .form-registration{
+     height:50vh;
+     width: 75vh;
+     background-color: white;
+     border-radius: 10px;
+ }
+ .form-registration div:nth-child(1){
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(206 231 241 / 0.63);
+     height: 20%;
+ }
