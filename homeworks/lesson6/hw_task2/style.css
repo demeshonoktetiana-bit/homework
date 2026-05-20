@@ -51,7 +51,7 @@ input[type=password]{
 .form-registration>form>div>input[type=submit]{
     background-color: rgb(206 231 241 / 0.63);
     border-radius: 10px;
-    border: 1px solid darkgrey;
+    border: 1px solid lightgray;
     width: 80px;
     height: 25px;
 

@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    align-items: center;
+
+}
+.form-registration{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 100vh;
+    width: 100vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.form-registration form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.form-registration h2{
+    margin: 50px 0 50px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+div.form-registration>form>input{
+    height: 50px;
+    width: 70%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+div.form-registration>form>div{
+    width: 100%;
+    text-align: center;
+
+}
+.form-registration>form>div>input[type=submit] {
+    width: 72%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(111 184 243 / 0.73);
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+div.form-registration>form>div>p{
+    margin: 30px 0 40px 0;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: bold;
+}
+
+.form-registration>form>div>a{
+    display: block;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: #124071;
+}
+.facebook{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Bowlby One", sans-serif
+}
+.password{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Bowlby One", sans-serif;
+
+}
+.signup{
+    width: 100%;
+    border: 1px solid lightgray;
+    margin: 20px auto 30px auto;
+
+}
+.signup-link{
+    text-decoration: none;
+    color: rgb(22 141 237 / 0.73);
+    font-family: "Bowlby One", sans-serif;
+    font-size: 20px;
+
+}
