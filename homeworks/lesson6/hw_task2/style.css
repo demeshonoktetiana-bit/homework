@@ -9,12 +9,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, sans-serif;
 }
  .form-registration{
      height:50vh;
      width: 75vh;
      background-color: white;
      border-radius: 10px;
+ }
+ .form-registration form{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
  }
  .form-registration div:nth-child(1){
      display: flex;
@@ -23,3 +30,29 @@ body{
      background-color: rgb(206 231 241 / 0.63);
      height: 20%;
  }
+.form-registration div:nth-child(1) h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+input[type=text],
+input[type=password]{
+    width: 300px;
+    margin: 15px;
+    height: 30px;
+
+}
+.form-registration>form>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding-top: 15px;
+}
+.form-registration>form>div>input[type=submit]{
+    background-color: rgb(206 231 241 / 0.63);
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    width: 80px;
+    height: 25px;
+
+}
