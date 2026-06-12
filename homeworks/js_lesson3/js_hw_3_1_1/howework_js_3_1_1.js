@@ -26,15 +26,15 @@ for (let i =0; i<elements.length; i++) {
 
 //#u3vmD0YJXh
 
-let elementsArray = ['a', 'b', 'c', 'd', true, 1, 2, 3, false, 4];
-
-for (let i =0; i<elementsArray.length; i++) {
-    if (typeof elementsArray[i] === "boolean") {
-
-        console.log(elementsArray[i]);
-
-    }
-}
+// let elementsArray = ['a', 'b', 'c', 'd', true, 1, 2, 3, false, 4];
+//
+// for (let i =0; i<elementsArray.length; i++) {
+//     if (typeof elementsArray[i] === "boolean") {
+//
+//         console.log(elementsArray[i]);
+//
+//     }
+// }
 
 
 //#9stMq2ou
@@ -211,7 +211,6 @@ let elemntsArray3 = [true, 12, 34, false , 56, 'a', 'b', 78, 'c', 'd'];
 
 
 
-
 //1. Створити пустий масив та :
 
 //a)
@@ -239,21 +238,167 @@ for (let i=1; i <= 100; i++) {
 console.log(emptyArray1);
 
 
-//c)
+//c) Заповнити масив 20-ма рандомними числами. (Google: Generate random number JS)
 
 let randomArray = [];
 
 for (let i=0; i < 20; i++) {
-  Math.random()
+  randomArray.push(Math.random() *100);
+
+}
+console.log(randomArray);
+
+
+
+
+//d)Заповнити масив 20-ма рандомними числами в діапазоні від 8 до 732 (Google: Generate random number JS)
+
+let randomArray1 = [];
+
+for (let i=0; i < 20 ; i++) {
+    randomArray1.push(Math.random()* 725+8);
+}
+
+
+// 2. Вивести за допомогою console.log кожен третій елемент
+
+for (let i = 2; i < randomArray1.length; i= i+3) {
+    console.log(randomArray1[i]);
+
+}
+
+
+//3.Вивести за допомогою console.log кожен третій елемент, тільки якщо цей елемент є парним.
+
+for (let i = 2; i < randomArray1 ; i= i+3) {
+    if (randomArray1[i] % 2 === 0) {
+        console.log(randomArray1[i]);
+    }
+}
+
+
+//4. Вивести за допомогою console.log кожен третій елемент, тільки якщо цей елемент є парним, та записати їх в новий масив
+
+let randomArray2 = [];
+
+for (let i = 2; i < randomArray1.length; i= i+3) {
+    if (randomArray1[i] % 2 === 0) {
+        console.log(randomArray1[i]);
+        randomArray2.push(randomArray1[i]);
+    }
+}
+
+
+// 5. Вивести кожен елемент масиву, сусід справа якого є парним
+//   EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
+
+let randomArray3 = [ 1, 2, 3, 5, 7, 9, 56, 8, 67];
+for (let i =0; i<randomArray3.length; i++) {
+    if (randomArray3[i+1] % 2 === 0) {
+        console.log(randomArray3[i]);
+    }
+}
+
+
+
+//6. Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
+
+let numbersArray = [100,250,50,168,120,345,188];
+
+let result = 0;
+
+for (let item of numbersArray) {
+    result = result + item;
+}
+
+console.log(result);
+let finish = result / numbersArray.length;
+console.log(finish);
+
+
+
+
+
+
+
+
+
+//7. 7. Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+
+let randomNumbersArray  = [1, 2, 3, 4, 5];
+let newArray = [];
+
+for (let i =0; i < randomNumbersArray.length; i++) {
+    newArray.push(randomNumbersArray[i] * 5);
+
+
+}
+console.log(newArray);
+
+
+
+//8. Створити масив з будь-якими значеннями (стрінги, числа, і тд…). пройтись по ньому, і, якщо елемент є числом, додати його в інший масив.
+
+let anyValuesArray = ["Tetiana", "Oleksandr", 26, 32, true , 41 , false, "Olena"];
+let filteredNumbersArray = [];
+
+for (let i =0; i < anyValuesArray.length; i++) {
+    if (typeof anyValuesArray[i] === "number" ) {
+        filteredNumbersArray.push(anyValuesArray[i]);
+
+    }
+}
+
+console.log(filteredNumbersArray);
+
+
+// Взяти масив з 10 чисел або створити його. Створити 2-й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший
+
+let valuesArray = [11,22,33,44,55,66,77,88,99,100];
+let valuesCopyArray = [];
+
+for (let i =0; i < valuesArray.length; i++) {
+    valuesCopyArray.push(valuesArray[i]);
+}
+console.log(valuesCopyArray);
+
+
+
+//– Дано масив: [ ‘a’, ‘b’, ‘c’] . За допомогою циклу for зібрати всі букви в слово.
+
+let stringArray = ['a', 'b', 'c'];
+let resultArray = "";
+for (let i =0; i < stringArray.length; i++) {
+    resultArray += stringArray[i];
+}
+console.log(resultArray);
+
+//– Дано масив: [ ‘a’, ‘b’, ‘c’] . За допомогою циклу while зібрати всі букви в слово.
+
+let stringArray1 = ['a', 'b', 'c'];
+let resultArray2 = "";
+
+
+let i = 0;
+while (i < stringArray1.length) {
+    resultArray2 += stringArray1[i];
+    i++;
 
 
 }
 
-//d)
+
+//– Дано масив: [ ‘a’, ‘b’, ‘c’] . За допомогою циклу for of зібрати всі букви в слово.
 
 
+let elementsArray = ['a', 'b', 'c'];
+let resultForOf = "";
 
+ for (let element of elementsArray) {
+     resultForOf += element;
+ }
 
+ 
 
 
 
