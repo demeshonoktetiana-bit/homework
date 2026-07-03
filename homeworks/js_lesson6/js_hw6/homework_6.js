@@ -279,3 +279,17 @@ console.log(cardSuitReduce);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
